@@ -15,26 +15,6 @@ Created a separate diversity-analysis branch using the nine audio features:
  tempo, energy, danceability, acousticness, instrumentalness, liveness, valence, loudness, speechiness.
 Calculated standard deviation and then an average for the diversity analysis.
 Combined the diversity results for the different K values.
-Output
-K
-Relevant Recommendations
-Mean Distance
-3
-2
-0.009
-5
-4
-0.014
-7
-5
-0.015
-9
-5
-0.016
-11
-5
-0.015
-
 
 How Mean Distance Helps Find Similar Songs
 For each recommended song, the KNN system calculates a distance between the reference song and the other songs using their audio features such as energy, danceability, tempo, and valence.
